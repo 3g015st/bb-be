@@ -1,0 +1,8 @@
+GET_RELATIONSHIP Ginerva Siblings
+GET_RELATIONSHIP Ginerva Son
+GET_RELATIONSHIP Ginerva Daughter
+GET_RELATIONSHIP Ginerva Brother-In-Law
+GET_RELATIONSHIP Ginerva Sister-In-Law
+GET_RELATIONSHIP Bill Sister-In-Law
+GET_RELATIONSHIP Bill Brother-In-Law
+GET_RELATIONSHIP Bill Siblings

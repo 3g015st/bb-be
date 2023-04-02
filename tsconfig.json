@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es6", "es2020"],
+    "outDir": "dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@root/*": ["*"],
+      "@domain/*": ["domain/*"],
+      "@strategies/*": ["domain/strategies/*"],
+      "@entities/*": ["domain/entities/*"],
+      "@infrastructure/*": ["infrastructure/*"]
+    },
+    "typeRoots": ["@types", "./node_modules/@types"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useUnknownInCatchVariables": false
+  },
+  "exclude": ["node_modules", "./aws", "e2e"]
+}
